@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and CSS styling -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Green Horizons Velocity Assets ltd! Discover opportunities where innovation meets sustainability.">
+    <title>About Us</title>
+    <style>
+        /* Base styles for body, header, main, and footer sections */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-image: url('G1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        
+        header img {
+            height: 50px; /* Adjust as needed */
+            margin-right: 20px; /* Space between logo and title */
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        
+        main {
+            text-align: left; /* Adjust text alignment as needed */
+            margin: 20px;
+            color: #fff;
+            flex: 1;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        /* Navigation bar styles */
+        .navigation {
+            margin-bottom: 20px;
+        }
+        
+        .navigation a {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            border-radius: 25px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .navigation a:hover {
+            background-color: #45a049;
+            border-color: #45a049;
+        }
+        
+        /* Language buttons styles */
+        .language-buttons {
+            margin-top: 10px;
+        }
+        
+        .language-buttons button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .language-buttons button.active {
+            background-color: #45a049;
+        }
+        
+        /* Financial services section styles */
+        #financial-services {
+            margin-top: 30px;
+            text-align: left;
+            color: white;
+        }
+        
+        #financial-services h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        #financial-services p {
+            margin-bottom: 15px;
+            text-align: left; /* Ensure Arabic text alignment */
+        }
+        
+        #financial-services ul,
+        #financial-services ol {
+            margin-bottom: 15px;
+            text-align: left; /* Ensure Arabic text alignment */
+        }
+        
+        #financial-services li {
+            margin-bottom: 5px;
+            text-align: left; /* Ensure Arabic text alignment */
+        }
+        
+        /* Right-to-left text styles */
+        .rtl {
+            direction: rtl;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section with title -->
+    <header>
+        <img src="MAIN LOGO.PNG" alt="Company Logo">
+        <h1 id="header-title">Green Horizons Velocity Assets ltd</h1>
+    </header>
+    
+    <!-- Navigation bar with links to other pages -->
+    <nav class="navigation">
+        <a href="Home.html" id="nav-home">Home</a>
+        <a href="Services.html" id="nav-services">Services</a>
+        <a href="Products.html" id="nav-products">Products</a>
+        <a href="Broker Partners.html" id="nav-broker">Partners</a>
+        <a href="Technical Analysis.html" id="nav-analysis">Technical Analysis</a>
+        <a href="Press Release.html" id="nav-press-release">Press Release</a>
+        <a href="Careers.html" id="nav-careers">Careers</a>
+        <a href="ContactUs.html" id="nav-contact">Contact Us</a>
+    </nav>
+    
+    <!-- Main content area -->
+    <main id="main-content">
+        <!-- Financial services section -->
+        <section id="financial-services">
+            <h2 id="financial-services-title-en"></h2>
+            
+            <p id="financial-strategies-text-en">We provide information and strategies by working in the areas of:</p>
+            
+            <ul id="financial-strategies-list-en">
+                <li>Strategic financial planning</li>
+                <li>Corporate restructuring</li>
+                <li>Evaluation of new projects</li>
+                <li>Financial restructuring</li>
+                <li>Wealth planning</li>
+            </ul>
+            
+            <ol id="financial-services-offer-list-en">
+                <li>Assessing the sources of wealth and its uses, and make recommendations about the optimal structure for maximizing wealth through the optimal use.</li>
+                <li>Studying the overall financial position of wealth and determine the degree of risk and return for the total wealth.</li>
+                <li>Provide investment proposals for the operational parts of the wealth.</li>
+                <li>Follow-up investments in all its forms and to provide periodic follow-up reports to ensure diversification and reduce risk and raise the revenue generated.</li>
+                <li>Study investment proposals submitted and make recommendations.</li>
+                <li>Conduct periodic reviews of the distribution of wealth and diversify its sources.</li>
+            </ol>
+        </section>
+    </main>
+    
+    <!-- Footer section -->
+    <footer>
+        &copy; 2024 Green Horizons Velocity Assets ltd. All rights reserved.
+    </footer>
+    
+    <!-- JavaScript for language button functionality -->
+    <script>
+        function setLanguage(lang) {
+            document.getElementById('btn-en').classList.add('active');
+        }
+    </script>
+</body>
+</html>

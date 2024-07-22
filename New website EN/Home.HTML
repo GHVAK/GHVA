@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Green Horizons Velocity Assets ltd! Discover opportunities where innovation meets sustainability.">
+    <title>GreenHorizons Velocity Assets ltd</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-image: url('G1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        header img {
+            height: 50px; /* Adjust as needed */
+            margin-right: 20px; /* Space between logo and title */
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .content {
+            text-align: center;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .navigation {
+            margin-bottom: 20px;
+        }
+
+        .navigation a {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            border-radius: 25px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .navigation a:hover {
+            background-color: #45a049;
+            border-color: #45a049;
+        }
+
+        .language-buttons {
+            margin-top: 10px;
+        }
+
+        .language-buttons button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .language-buttons button.active {
+            background-color: #45a049;
+        }
+
+        #welcome-message-en {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        #financial-services {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        #financial-services h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        #financial-services p, 
+        #financial-services ul, 
+        #financial-services ol {
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        #financial-services ul, 
+        #financial-services ol {
+            padding-left: 20px;
+        }
+
+        #financial-services li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="MAIN LOGO.png" alt="Company Logo">
+        <h1 id="header-title">Green Horizons Velocity Assets ltd</h1>
+    </header>
+    
+    <main>
+        <div class="content">
+            <nav class="navigation">
+                <a href="Home.html" id="nav-home">Home</a>
+                <a href="Services.html" id="nav-services">Services</a>
+                <a href="Products.html" id="nav-products">Products</a>
+                <a href="Broker Partners.html" id="nav-broker">Partners</a>
+                <a href="Technical Analysis.html" id="nav-analysis">Technical Analysis</a>
+                <a href="Press Release.html" id="nav-press-release">Press Release</a>
+                <a href="Careers.html" id="nav-careers">Careers</a>
+                <a href="ContactUs.html" id="nav-contact">Contact Us</a>
+            </nav>
+            
+            <p id="welcome-message-en">Welcome to GreenHorizons Velocity Assets ltd! Discover a world of opportunity with us where innovation meets sustainability. At GreenHorizons, we are committed to driving positive change through our diverse portfolio of assets and investments. Whether you're a seasoned investor or exploring new opportunities, our team is here to guide you every step of the way.</p>
+        </div>
+    </main>
+    
+    <footer>
+        &copy; 2024 Green Horizons Velocity Assets ltd. All rights reserved.
+    </footer>
+    
+    <script>
+        function setLanguage(lang) {
+            document.getElementById('btn-en').classList.add('active');
+        }
+    </script>
+</body>
+</html>
